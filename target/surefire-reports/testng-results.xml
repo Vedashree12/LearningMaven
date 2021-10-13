@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-13T09:33:15Z" name="Suite" finished-at="2021-10-13T09:33:26Z" duration-ms="10697">
+    <groups>
+    </groups>
+    <test started-at="2021-10-13T09:33:15Z" name="Test1" finished-at="2021-10-13T09:33:15Z" duration-ms="30">
+      <class name="appTest.AppTest">
+        <test-method signature="loginTest()[pri:0, instance:appTest.AppTest@57c03d88]" started-at="2021-10-13T09:33:15Z" name="loginTest" description="Login with valid username and password" finished-at="2021-10-13T09:33:15Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTestWithInvalid()[pri:0, instance:appTest.AppTest@57c03d88]" started-at="2021-10-13T09:33:15Z" name="loginTestWithInvalid" description="Login with invalid username and password" finished-at="2021-10-13T09:33:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalid -->
+      </class> <!-- appTest.AppTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-10-13T09:33:15Z" name="Test2" finished-at="2021-10-13T09:33:15Z" duration-ms="0">
+      <class name="appTest.AppTestNumberCompare">
+        <test-method signature="intCompare()[pri:0, instance:appTest.AppTestNumberCompare@3b74ac8]" started-at="2021-10-13T09:33:15Z" name="intCompare" finished-at="2021-10-13T09:33:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intCompare -->
+      </class> <!-- appTest.AppTestNumberCompare -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-10-13T09:33:15Z" name="Test3" finished-at="2021-10-13T09:33:26Z" duration-ms="10639">
+      <class name="appTest.Github">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:appTest.Github@327af41b]" started-at="2021-10-13T09:33:15Z" name="beforeTest" finished-at="2021-10-13T09:33:23Z" duration-ms="7992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:appTest.Github@327af41b]" started-at="2021-10-13T09:33:23Z" name="f" finished-at="2021-10-13T09:33:26Z" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:appTest.Github@327af41b]" started-at="2021-10-13T09:33:26Z" name="afterTest" finished-at="2021-10-13T09:33:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- appTest.Github -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
